@@ -1,0 +1,53 @@
+doctype html
+html
+    // 登录界面模板：https://www.cnblogs.com/xinjiebi/p/5061516.html
+    head
+        meta(charset='UTF-8')
+        | &#x9;&#x9;
+        title &#x66B4;&#x98CE;TV&#x5B98;&#x7F51;-&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7535;&#x89C6;&#x3001;&#x5206;&#x4F53;&#x7535;&#x89C6;&#x3001;&#x914D;&#x4EF6;&#x53CA;&#x670D;&#x52A1;&#x5B98;&#x65B9;&#x6B63;&#x54C1;&#x9500;&#x552E;&#x7F51;&#x7AD9;
+        | &#x9;&#x9;
+        link(rel='stylesheet', href='css/denglu.css')
+        | &#x9;&#x9;
+        link(rel='shortcut icon', href='img/bitbug_favicon.ico')
+    | &#x9;
+    body
+        .framework
+            .head
+                a(href='http://127.0.0.1:8020/%E5%96%BB%E6%99%8B-VR%E5%BD%B1%E9%99%A2/%E5%AD%90%E9%A1%B52.html?__hbt=1539741302477')
+                    img(src='img/logo_1.png')
+            | &#x9;&#x9;&#x9;
+            form(action='/login.do', method='post', enctype='application/x-www-form-urlencoded')
+                .denglu
+                    .shouji
+                        input.shouji1(type='text', name='username', placeholder='请输入用户名')
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .mima
+                        input.mima1(type='password', name='password', placeholder='请输入密码')
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .jizhumima
+                        label.jizhumima1
+                            input(type='checkbox', style='width: 15px; height: 15px;')
+                            |                                               &#x8BB0;&#x4F4F;&#x5BC6;&#x7801;
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        a(style='color: red;', href='http://www.bftv.com/register') &#x6CE8;&#x518C;&#x6709;&#x793C;
+                        | &#x9;
+                        | &#x9;&#x9;&#x9;&#x9;&#x9;
+                        a(href='http://www.bftv.com/reset ')  | &#x5FD8;&#x8BB0;&#x5BC6;&#x7801;
+                    | &#x9;&#x9;&#x9;&#x9;
+                    .login-button-box
+                        input(type="submit" value='登录')
+
+                        div #{message}
+            | &#x9;&#x9;&#x9;
+            .jiewei
+                .disanfang &#x7B2C;&#x4E09;&#x65B9;&#x767B;&#x5F55;
+            | &#x9;&#x9;&#x9;
+            ol.tubiao
+                li(style='margin-left:80px;')
+                    a.qq(href='http://www.bftv.com/login/qq')
+                | &#x9;&#x9;&#x9;&#x9;
+                li
+                    a.weibo(href='http://www.bftv.com/login/weibo')
+                | &#x9;&#x9;&#x9;&#x9;
+                li
+                    a.weixin(href='http://www.bftv.com/login/weibo')

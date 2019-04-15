@@ -1,0 +1,38 @@
+html
+	head
+		meta(charset='utf-8')
+		title 学生信息
+		style.
+			table{
+				margin:0 auto;
+				text-align:center;
+				border-collapse:collapse;
+				width: 100%;
+			}
+			th{
+				background-color:green;
+				color:white;
+			}
+			td,th
+			{
+				font-size:1em;
+				border:1px solid black;
+				padding:5px 15px 5px 15px;
+			}
+	body
+		table
+			tbody
+				tr
+					th 用户名
+					th 密码
+					th(colspan='2') 操作
+			each val in userLists
+				tr
+					td #{val.name}
+					td #{val.passwor}
+					td
+						a(href='delete?uid=' + val.id) 删除
+					td
+						a(href='update?uid=' + val.id target="right") 修改
+
+

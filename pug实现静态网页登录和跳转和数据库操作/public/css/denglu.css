@@ -1,0 +1,69 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.framework{width: 1200px; margin: 0 auto; height: auto;}
+.head{text-align: center;padding-top: 25px;;}
+.denglu{height: 250px; width: 1200px;margin-top: 40px;}
+.shouji{padding-left: 412px;}
+input.shouji1{width: 358px; height: 50px;       /*'input.shouji1'表示input下的shouji1，中间没有空格。高度固定，宽度自适应*/
+              line-height:45px;                 /*行高固定*/
+              padding-left:35px;                /*增加左内边距，用来放图标*/
+              background-image:url(../img/name.png);  /*单独设置背景图（图标），和背景色区别*/
+              background-repeat:no-repeat;       /*图标不重复*/
+              border:none;                       /*去除边框*/
+              border: 1px solid rgb(229,229,229); /*设置边框*/
+              background-position: center;        /*垂直居中*/
+               background-position-x: 10px;       /*图标右移*/
+               letter-spacing:1px;}               /*字间距*/
+.mima{padding-left: 412px;margin-top: 20px;}
+input.mima1{width: 358px; height: 50px;line-height:40px; padding-left:35px;background-image:url(../img/paw.png);background-repeat:no-repeat;border:none;border: 1px solid rgb(229,229,229);background-position: center; background-position-x: 10px;letter-spacing:1px;}
+.jizhumima{width: 360px;margin: 0 auto; height: 20px;font-size: 12px;margin-top: 20px;text-align: right;}
+.jizhumima1{position: relative;margin-left:16px;float: left;}
+.jizhumima input{position:absolute;top: 1px;left:-22px;}
+.jizhumima a{text-decoration: none;}
+.jizhumima a:hover{color: rgb(30,144,255)}
+.login-button-box{
+    margin-top: 20px;
+    width: 386px;
+    margin-left: 400px;
+    display: inline-block;
+}
+.login-button-box input{
+    background-color: #608ff7;
+    color: #ffffff;
+    font-size: 22px;
+    width: 386px;
+    height: 50px;
+    margin-left: 18px;
+    border: 1px solid #608ff7;
+    border-radius: 4px;
+}
+.login-button-box button:hover{
+    /*background-color: #ee7204;*/
+}
+.jiewei{width: 360px; margin: 0 auto;border-bottom: 1px solid #ccc;margin-top: 48px;position: relative;}
+.disanfang{width: 110px;background-color: #fff;position: absolute;left: 50%;margin-left: -50px;top: -12px;
+           color: #969696;font-size: 18px;display: block;text-align: center;}
+.tubiao{width: 360px;margin: 0 auto;margin-top: 37px;}
+.tubiao li{width: 50px;height: 50px;float: left;margin-left: 30px;}
+.tubiao li a{width: 50px;height: 50px;display: inline-block;}
+/*.tubiao em:hover{background:url(../img/qq (1).png) no-repeat center;}*/
+.qq{background: url(../img/QQ3.png) no-repeat center;}
+.weibo{background:url(../img/microblog_1.png) no-repeat center;}
+.weixin{background:url(../img/WeChat.png) no-repeat center;}
+.qq:hover{ background: url(../img/QQ.png) no-repeat center; height: 50px; width: 50px; display: inline-block;}
+.weibo:hover{background:url(../img/weibo1.png) no-repeat center;height: 50px; width: 50px; display: inline-block;}
+.weixin:hover{background:url(../img/weixin.png) no-repeat center;height: 50px; width: 50px; display: inline-block;}
